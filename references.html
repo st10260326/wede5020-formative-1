@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+     <link rel="stylesheet" href="css/style.css" />
+     <style>
+    /* Optional tiny helpers for reference styling */
+    .ref-list { counter-reset: ref; list-style: none; padding-left: 0; }
+    .ref-list li { margin: .8rem 0; }
+    .ref-list li::before {
+      counter-increment: ref; content: "[" counter(ref) "] ";
+      color: #999; font-variant-numeric: tabular-nums;
+    }
+    .back-link { font-size: .9rem; margin-left: .5rem; }
+    sup a { text-decoration: none; }
+  </style>
+</head>
+<body>
+   <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.svg" alt="Ubuntu Community Outreach logo" width="48" height="48" />
+      <span class="brand-name">Ubuntu Community Outreach</span>
+    </div>
+    <nav aria-label="Primary">
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+      <div id="navMenu" class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">AboutUs</a>
+        <a href="Services.html">Services &amp; Impact</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">ContactUs</a>
+        <a href="references.html" aria-current="page" class="active">References</a>
+      </div>
+    </nav>
+  </header> 
+
+   <main id="main" class="container">
+    <h1><em>References</em></h1>
+
+    <ol class="ref-list">
+      <li id="ref-beaird">
+        Beaird, J. &amp; George, J., 2014. <em>The Principles of Beautiful Web Design</em>. 3rd ed. Collingwood: SitePoint.
+      </li>
+      <li id="ref-chaffey">
+        Chaffey, D. &amp; Ellis-Chadwick, F., 2019. <em>Digital Marketing</em>. 7th ed. Harlow: Pearson.
+      </li>
+      <li id="ref-nng-nav">
+        Fessenden, T., 2018. <em>Top 10 Guidelines for Navigation Usability</em>. Nielsen Norman Group.
+        Available at: <a href="https://www.nngroup.com/articles/navigation-usability/">https://www.nngroup.com/articles/navigation-usability/</a> [Accessed 27 Aug. 2025].
+      </li>
+      <li id="ref-google-fonts">
+        Google Fonts, n.d. <em>Get started with the Google Fonts API</em>.
+        Available at: <a href="https://developers.google.com/fonts/docs/getting_started">https://developers.google.com/fonts/docs/getting_started</a> [Accessed 27 Aug. 2025].
+      </li>
+      <li id="ref-wai-apg">
+        Hogan, M., 2024. <em>ARIA Authoring Practices Guide (APG)</em>. W3C WAI.
+        Available at: <a href="https://www.w3.org/WAI/ARIA/apg/">https://www.w3.org/WAI/ARIA/apg/</a> [Accessed 27 Aug. 2025].
+      </li>
+      <li id="ref-krug">
+        Krug, S., 2014. <em>Don’t Make Me Think, Revisited</em>. 3rd ed. Berkeley: New Riders.
+      </li>
+      <li id="ref-mdn-semantics">
+        MDN Web Docs, 2024. <em>HTML: Semantic elements</em>. Mozilla.
+        Available at: <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html">https://developer.mozilla.org/…/Semantics</a> [Accessed 27 Aug. 2025].
+      </li>
+      <li id="ref-mdn-viewport">
+        MDN Web Docs, 2024. <em>Responsive design—viewport meta tag</em>. Mozilla.
+        Available at: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">https://developer.mozilla.org/…/Viewport_meta_tag</a> [Accessed 27 Aug. 2025].
+      </li>
+      <li id="ref-wcag">
+        W3C, 2023. <em>Web Content Accessibility Guidelines (WCAG) 2.2</em>.
+        Available at: <a href="https://www.w3.org/TR/WCAG22/">https://www.w3.org/TR/WCAG22/</a> [Accessed 27 Aug. 2025].
+      </li>
+      <li id="ref-whatwg-html">
+        WHATWG, 2025. <em>HTML Living Standard</em>.
+        Available at: <a href="https://html.spec.whatwg.org/">https://html.spec.whatwg.org/</a> [Accessed 27 Aug. 2025].
+      </li>
+    </ol>
+
+    <p class="back-link"><a href="index.html">← Back to Home</a></p>
+  </main>
+
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Ubuntu Community Outreach. All rights reserved.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

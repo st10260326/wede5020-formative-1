@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs | UBUNTU Community Outreach</title>
+    <link rel="preload" href="images/logo.svg" as="image" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <header class="site-header">
+        <div class="brand">
+            <img src="images/imagelogo.jpg" alt="UBUNTU Community Outreach" width="48" height="48"/>
+            <span class="brand-name">UBUNTU Community Outreach</span>
+        </div>
+
+        <nav aria-label="Primary">
+            <button id="nay-Toggle" class="nav-Toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+            <div id="navMenu" class="nav-Menu">
+                <a href="index.html">HOME</a>
+                <a href="aboutUs.html">AboutUs</a>
+                <a href="Services.html">Services &amp; Impact</a>
+                <a href="Donate.html">Donate</a>
+                <a href="contactus.html" aria-current="page" class="active">ContactUs</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" class="container">
+
+        <section>
+            <h1>ContactUs</h1>
+            <p>We would love to hear from you. Reach out for partnerships, volunteering, or general enquiry!</p>
+
+            <div class="grid-2">
+                <form class="contact form" action="#" method="post">
+                    <label for="cname">Your Name</label>
+                    <input id="cname" name="cname" type="text" required />
+
+                    <label for="cemail">Email</label>
+                    <input id="cemail" name="cemail" type="email" required />
+
+                    <label for="cmessage">Message</label>
+                    <input id="cmessage" name="cmessage" rows="6" required />
+
+                    <button class="btn primary" type="submit">Send Message</button>
+                </form>
+
+                <aside>
+                    <h2>Our Office</h2>
+                    <address>
+                        321 Learning Lane<br />
+                        Pretoria, Centurion 0157<br />
+                        South Africa
+                    </address>
+                    <P><strong>Email:</strong> info@ubuntuoutreach.org<br />
+                    <strong>Phone:</strong> +27 12 655 0084</P>
+                    <div class="map-placeholder" role="img" aria-label="Map-placeholder"></div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <br>
+
+    <br>
+
+    <br>
+    
+    <footer class="stie-footer">
+        <p>&copy; 2025 UBUNTU Community Outreach. All Rights Reserved</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

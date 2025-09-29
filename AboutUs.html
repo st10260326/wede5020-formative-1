@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AboutUs | UBUNTU Community Outreach</title>
-    <link rel="preload" href="images/logo.svg" as="image"/>
-    <link rel="stylesheet" href="css/style.css"/>
+  <!--
+    File: about.html
+    Purpose: About page with mission, vision, and team.
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About Ubuntu Community Outreach: mission, vision, and team." />
+  <title>About | Ubuntu Community Outreach</title>
+  <link rel="preload" href="images/imagebackground.jpg" as="image" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    
-    <header class="site-header">
-        <div class="brand">
-            <img src="images/imagelogo.jpg" alt="UBUNTU Community Outreach logo" width="48" height="48"/>
-            <span class="brand-name">UBUNTU Community Outreach</span>
-        </div>
+  
 
-        <nav aria-label="Primary">
-            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
-            <div id="navMenu" class="nav-menu">
-                <a href="index.html">HOME</a>
-                <a href="AboutUs.html" aria-current="page" class="active">AboutUs</a>
-                <a href="Services.html">Services &amp; Imapact</a>
-                <a href="Donate.html">Donate</a>
-                <a href="ContactUs.html">ContactUs</a>
-            </div>
-        </nav>
-    </header>
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.svg" alt="Ubuntu Community Outreach logo" width="48" height="48" />
+      <span class="brand-name">Ubuntu Community Outreach</span>
+    </div>
 
-    <main id="main" class="container">
+    <nav aria-label="Primary">
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+      <div id="navMenu" class="nav-menu">
+        <ul>
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page" class="active">AboutUs</a>
+        <a href="Services.html">Services</a>
+        <a href="donate.html">Donate</a>
+        <a href="ContactUs.html">Contact</a>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-        <section>
-            <h1>AboutUS</h1>
+  <main id="main" class="container">
+    <!-- ABOUT: mission, vision, and team summary -->
+    <section>
+      <h1>About Us</h1>
+      <p>Founded in 2015, Ubuntu Community Outreach (UCO) is a non-profit dedicated to uplifting communities by providing educational support and career guidance to disadvantaged youth.</p>
+    </section>
 
-            <p>Founded in 2015, UBUNTU Community Outreach (UCO) is a non-profit dedicated to uplifiting communities by providing educational support and career guidance to disadvantaged youth. Ensuring a brighter future for all, making sure each and every youth memeber gets a chance to secure their rightful place in society.</p>
-        </section>
+    <section class="grid-2">
+      <article>
+        <h2>Our Mission</h2>
+        <p>To uplift communities by providing educational support and mentorship for disadvantaged youth.</p>
+      </article>
+      <article>
+        <h2>Our Vision</h2>
+        <p>A society where all young people have equal access to education and opportunities.</p>
+      </article>
+    </section>
 
-        <section class="grid-2">
-            <article>
-                <h2>Our Mission</h2>
+    <section>
+      <h2>Our Team</h2>
+      <ul class="list">
+        <li><strong>Nomsa Dlamini</strong> – Executive Director</li>
+        <li><strong>Sipho Mthembu</strong> – Programs Manager</li>
+        <li><strong>Leila Naidoo</strong> – Volunteer Coordinator</li>
+      </ul>
+    </section>
+  </main>
 
-                <p>To uplift communities by providing educational support and mentorship for disadvantaged youth</p>
-            </article>
-            
-            <article>
-                <h2>Our Vision</h2>
+  <footer class="site-footer">
+    <p>&copy; 2025 Ubuntu Community Outreach. All rights reserved.</p>
+  </footer>
 
-                <p>A society where all young people have equal access to education and opportunities.</p>
-            </article>
-        </section>
-
-        <section>
-            <h2>Meet Our Team</h2>
-            <ul class="list">
-                <li><strong>Avuyile Maome</strong>-Executive Director</li>
-                <li><strong>Sipho Mthembu</strong>-Programs Manager</li>
-                <li><strong>Nomsa Dlamini</strong>-Volunteer Coordinator</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <p>&copy; 2025 UBUNTU Community Outreach. All Rights Reserved</p>
-    </footer>
-
-    <script src="js/script.js"></script>
-
-    
+  <script src="js/script.js"></script>
 </body>
 </html>

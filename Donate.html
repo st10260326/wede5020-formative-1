@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate | UBUNTU Community Outreach</title>
-    <link rel="preload" href="images/logo.svg" as="image"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preload" href="images/imagebackground.jpg" as="image"/>
+    <link rel="stylesheet" href="CSS/style.css"/>
 </head>
 <body>
     
@@ -18,11 +18,13 @@
         <nav aria-label="Primary">
             <button id="nav-Toggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
             <div id="navMenu" class="nav-Menu">
-                <a href="index.html">HOME</a>
-                <a href="aboutus.html">AboutUs</a>
-                <a href="Services.html">Services &amp; Impact</a>
-                <a href="donate.html" aria-current="page" class="active">Donate</a>
-                <a href="ContactUs.html">ContactUs</a>
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="aboutus.html">AboutUs</a></li>
+                <li><a href="donate.html" aria-current="page" class="active">Donate</a></li>
+                <li><a href="ContactUs.html">ContactUs</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -40,7 +42,7 @@
                     <label><input type="radio" name="amount" value="250" /></label>
                     <label><input type="radio" name="amount" value="500" /></label>
                     <label for="customAmount" class="sr-only">Custom Amount</label>
-                    <input id="customAmount" name="customAmount" type="number" min="10" step="10" placeholder="Custom Amount (R)" />
+                    <input id="customAmount" name="customAmount" type="number" min="100" step="10" placeholder="Custom Amount (R)" />
                 </fieldset>
 
                 <fieldset>

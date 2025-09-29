@@ -6,8 +6,7 @@
 =======
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/v1ochBaF)
 # Website Development Project - Part 1: Building the Foundation
-
-## 📌 Project Overview
+Project Overview
 This repository contains the deliverables for Part 1 of the Website Development Project.  
 The goal is to design and plan websites for two organisations with distinct needs:  
 1. **Ubuntu Community Outreach (Non-Profit Organisation)**  
@@ -17,11 +16,11 @@ The project includes research, proposals, sitemap, budgets, and references.
 
 ---
 
-## 📂 Repository Structure
+Repository Structure
 
 ---
 
-## 📝 Proposals & Budgets
+Proposals & Budgets
 
 ### 1. Ubuntu Community Outreach (Non-Profit)
 **Mission:** To uplift disadvantaged youth through education and mentorship.  
@@ -66,7 +65,7 @@ The structure is as follows:
 
 ---
 
-## 🔧 Technical Requirements
+Technical Requirements
 - **Languages**: HTML5, CSS3, JavaScript  
 - **Hosting**: Shared (non-profit) / Business e-commerce hosting (bakery)  
 - **Payment Gateway**: PayFast, PayPal, or Stripe  
@@ -74,7 +73,7 @@ The structure is as follows:
 
 ---
 
-## 📚 References
+References
 - Chaffey, D. and Ellis-Chadwick, F., 2019. *Digital Marketing*. 7th ed. Pearson.  
 - Beaird, J. and George, J., 2014. *The Principles of Beautiful Web Design*. 3rd ed. SitePoint.  
 - Krug, S., 2014. *Don’t Make Me Think: A Common Sense Approach to Web Usability*. 3rd ed. New Riders.  
@@ -83,7 +82,7 @@ The structure is as follows:
 
 ---
 
-## ✅ How to Use
+How to Use
 1. Open `Part1_Report.docx` for the full project documentation.  
 2. View `Website_Sitemap.png` for the visual sitemap diagram.  
 3. Check `References_and_Sources.docx` in the Research folder for full sources.  
